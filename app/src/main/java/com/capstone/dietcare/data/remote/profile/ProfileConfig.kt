@@ -14,7 +14,7 @@ class ProfileConfig {
                 .addInterceptor(loggingInterceptor)
                 .build()
             val retrofit = Retrofit.Builder()
-                .baseUrl("https://dietcare-project.et.r.appspot.com/")
+                .baseUrl("http://localhost:3000")
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)
                 .build()

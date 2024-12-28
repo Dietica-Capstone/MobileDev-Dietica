@@ -47,6 +47,9 @@ dependencies {
     implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:latest.version"
+    kapt "org.jetbrains.kotlin:kotlin-annotation-processing-gradle:latest.version"
+
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 
     implementation 'com.airbnb.android:lottie:3.4.0'
